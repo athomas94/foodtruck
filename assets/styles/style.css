@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif !important;
+  }
+  /************ navbar starts here ************/
+  .navbar {
+    background-color: maroon;
+    padding: 12px 6px;
+  }
+  
+  .navbar .navLinks {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px !important;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .navbar .navLinks li a {
+    padding: 4px 2px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  /************ navbar ends here ************/
+  
+  /************* hero starts here ************/
+  
+  .heroContainer {
+    background-image: url("https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    padding: 60px 15px 100px;
+    background-attachment: fixed;
+  }
+  
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+  
+  h1.page-title {
+    font-family: "Arial", serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .heroContainer .logo {
+    display: flex;
+    text-decoration: none;
+    max-width: 280px !important;
+    width: 95%;
+    height: 280px !important;
+    margin: 0 auto 50px;
+    background-color: #807c80b6;
+    border-radius: 20%;
+    border: 6px solid #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .heroContainer .logo a img {
+    max-width: 280px;
+    width: 70%;
+    height: 60%;
+    margin: 0 auto;
+    border-radius: 0%;
+  }
+  
+  /************ hero ends here ************/
+  
+  /************ About Us starts here ************/
+  .aboutUsContainer {
+    padding: 40px 0px;
+    background-color: tan;
+  }
+  
+  .aboutUsContainer h2 {
+    width: 65%;
+    font-size: 30px;
+    font-weight: 600;
+    color: maroon;
+    margin: 0 0 15px;
+    text-align: center;
+  }
+  
+  .flexboxes {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  
+  .side1 {
+    justify-content: left;
+    width: 60%;
+    margin-right: 20px;
+    color: maroon;
+    font-weight: 550;
+  }
+  
+  .side2 {
+    justify-content: left;
+  }
+  
+  .flexboxes .side2 img {
+    width: 75%;
+  }
+  
+  /************ About Us ends here ************/
+  
+  /************ Menu starts here ************/
+  
+  #menu {
+    display: none;
+  }
+  
+  .menuContainer {
+    padding: 40px 0px;
+  }
+  
+  .menuContainer h2 {
+    width: 75%;
+    font-size: 30px;
+    font-weight: 600;
+    color: maroon;
+    margin: 0 0 15px;
+    text-align: center;
+  }
+  
+  .menuContainer .menuList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  
+  .menuList .wraps,
+  .menuList .sides {
+    max-width: 455px;
+    width: 100%;
+    margin: 0 20px 20px;
+  }
+  
+  .menuFile .wraps {
+    margin-right: 20px !important;
+  }
+  
+  .menuList h2 {
+    margin: 0 0 15px;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  .menuList .contentBox {
+    margin-bottom: 15px;
+  }
+  
+  .menuList .contentBox h4 {
+    margin: 0 0 2px;
+    font-size: 15px;
+    color: maroon;
+  }
+  
+  .menuList .contentBox p {
+    margin: 0;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+  }
+  
+  .menuList .smallText {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  /************ Menu ends here ************/
+  
+  /************ Favorites starts here ************/
+  #favorites {
+    display: none;
+  }
+  
+  .favoritesContainer {
+    padding: 40px 0px;
+    background-color: maroon;
+  }
+  
+  .favoritesContainer h2 {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin: 0 0 35px;
+    text-align: center;
+  }
+  
+  .favoritesContainer p {
+    text-align: center;
+    width: 100%;
+    margin-right: 0px;
+    color: white;
+  }
+  
+  .imageContainers {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  
+  .imageContainers .favorites {
+    margin: 0 auto;
+    height: 300px;
+    width: 450px;
+    padding-right: 20px;
+  }
+  
+  /************ Favorites ends here ************/
+  
+  /************ Location starts here ************/
+  
+  #location {
+    display: none;
+  }
+  
+  .locationContainer {
+    padding: 40px 0px;
+  }
+  
+  .locationContainer .location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 960px;
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  
+  .locationContainer .locationImg {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  
+  .locationContainer .locationImg img {
+    width: 100%;
+  }
+  
+  .locationContainer .locationContent {
+    max-width: 430px;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 35px 32px 0px 18px;
+    background-color: tan;
+  }
+  
+  .locationContainer .locationContent h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: maroon;
+    margin: 0 0 11.5px;
+    padding-top: 15px;
+  }
+  
+  .locationContainer .locationContent p {
+    margin: 0 0 10px;
+    font-weight: 600;
+    line-height: 20px;
+    color: maroon;
+    max-width: 200px;
+    width: 100%;
+  }
+  
+  .locationContainer .locationContent .hours {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .locationContent .hours li {
+    display: flex;
+    justify-content: space-between;
+    color: maroon;
+    font-size: 15.5px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .locationContent .hours li span {
+    display: inline-block;
+    width: 140px;
+  }
+  
+  /************ location ends here ************/
+  
+  /************ footer starts here ************/
+  .footer {
+    background-color: tan;
+    padding: 30px 15px;
+  }
+  
+  .footer .socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  .footer .socialMedia a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: #fffffd;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+  }
+  
+  .footer .socialMedia img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .footer p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    color: maroon;
+  }
+  
+  /* footer ends here */
+  
